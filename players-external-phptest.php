@@ -31,29 +31,20 @@ $playerTeam = $playerObject->data;
     <dd>
         <?php echo $playerTeam->team->id;?>
     </dd>
-
       <dt>Team Abbreviation</dt>
       <dd> 
         <?php echo $playerTeam->team->abbreviation;?>
       </dd>
-
       <dt> Team City</dt>
       <dd>
          <?php echo $playerTeam->team->city;?>
       </dd>
-
           <dt> Team Conference</dt>
-
          <dd><?php echo $playerTeam->team->conference;?></dd>
-
              <dt> Team Division</dt>
-
-         <dt><?php echo $playerTeam->team->division;?><dt>
-
+         <dd><?php echo $playerTeam->team->division;?><dd>
              <dt> Team Fullname</dt>
-
          <dd><?php echo $playerTeam->team->full_name;?></dd>
-
          <dt> Team ID</dt>
     <dd>
          <?php echo $playerTeam->team->name;?>
