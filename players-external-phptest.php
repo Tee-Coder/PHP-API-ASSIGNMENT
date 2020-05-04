@@ -49,18 +49,8 @@ $playerTeam = $playerObject->data;
     <dd>
          <?php echo $playerTeam->team->name;?>
     </dd>
-
-   
       <br> </br>
      <?php endforeach?>
-
-
 </dl>
-
-     
-
- 
-   
-
 </body>
 </html>
